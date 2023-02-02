@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Inicio </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<section id="emptyHeader"></section>
+<nav id="siteNav">
+<ul>
+   <li id="active"><a href="index.html" class="active no-ch main-node">Inicio</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Inicio</h1></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id0">
+<script type="text/javascript">/*<![CDATA[*/
+var numQuestions = 8;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var key0 = 0;
+var key1 = 2;
+var key2 = 2;
+var key3 = 1;
+var key4 = 1;
+var key5 = 2;
+var key6 = 3;
+var key7 = 2;
+function getAnswer()
+        {
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key0b0[i].checked)
+               {
+                  question0 = document.getElementById("quizForm0").key0b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key1b0[i].checked)
+               {
+                  question1 = document.getElementById("quizForm0").key1b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key2b0[i].checked)
+               {
+                  question2 = document.getElementById("quizForm0").key2b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key3b0[i].checked)
+               {
+                  question3 = document.getElementById("quizForm0").key3b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key4b0[i].checked)
+               {
+                  question4 = document.getElementById("quizForm0").key4b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key5b0[i].checked)
+               {
+                  question5 = document.getElementById("quizForm0").key5b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key6b0[i].checked)
+               {
+                  question6 = document.getElementById("quizForm0").key6b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key7b0[i].checked)
+               {
+                  question7 = document.getElementById("quizForm0").key7b0[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+            if (question2 == key2)
+            {
+               rawScore++;
+            }
+            if (question3 == key3)
+            {
+               rawScore++;
+            }
+            if (question4 == key4)
+            {
+               rawScore++;
+            }
+            if (question5 == key5)
+            {
+               rawScore++;
+            }
+            if (question6 == key6)
+            {
+               rawScore++;
+            }
+            if (question7 == key7)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            var id = "0";
+            document.getElementById("quizForm"+id).submitB.disabled = true;
+            var s = document.getElementById("quizFormScore"+id);
+                        var msg_str ="Su puntuación es %d%%";            msg_str = msg_str.replace("%d",actualScore).replace("%%","%");            if (s) { s.innerHTML = "<div class='feedback'><p>"+msg_str+"</p></div>"; } else { alert(msg_str); }
+           
+        }
+    /*]]>*/</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">EVALUACIÓN DE ESPAÑOL GRADO 9°</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm0" id="quizForm0" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-0" value="60" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b0" class="block iDevice_content">
+<p>1. En la Oración "Los niños juegan al futbol", que tipo de Oración es?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b01" class="sr-av"><a href="#answer-key0b01">Opción 1</a></label><input type="radio" name="key0b0" id="key0b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b01">
+<div id="taoptionAnswer0q0b0" class="block iDevice_content">
+<p>a) Afirmativa</p>
+<p></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b02" class="sr-av"><a href="#answer-key0b02">Opción 2</a></label><input type="radio" name="key0b0" id="key0b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b02">
+<div id="taoptionAnswer1q0b0" class="block iDevice_content">
+<p>b) Interrogativa</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b03" class="sr-av"><a href="#answer-key0b03">Opción 3</a></label><input type="radio" name="key0b0" id="key0b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b03">
+<div id="taoptionAnswer2q0b0" class="block iDevice_content">
+<p>c) Negativa</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b04" class="sr-av"><a href="#answer-key0b04">Opción 4</a></label><input type="radio" name="key0b0" id="key0b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b04">
+<div id="taoptionAnswer3q0b0" class="block iDevice_content">
+<p>d) Exclamativa</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b0" class="block iDevice_content">
+<p>2. "María no fue al cine", es un tipo de oración?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b01" class="sr-av"><a href="#answer-key1b01">Opción 1</a></label><input type="radio" name="key1b0" id="key1b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b01">
+<div id="taoptionAnswer0q1b0" class="block iDevice_content">
+<p>a) Afirmativa</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b02" class="sr-av"><a href="#answer-key1b02">Opción 2</a></label><input type="radio" name="key1b0" id="key1b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b02">
+<div id="taoptionAnswer1q1b0" class="block iDevice_content">
+<p>b) Interrogativa</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b03" class="sr-av"><a href="#answer-key1b03">Opción 3</a></label><input type="radio" name="key1b0" id="key1b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b03">
+<div id="taoptionAnswer2q1b0" class="block iDevice_content">
+<p>c) Negativa</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b04" class="sr-av"><a href="#answer-key1b04">Opción 4</a></label><input type="radio" name="key1b0" id="key1b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b04">
+<div id="taoptionAnswer3q1b0" class="block iDevice_content">
+<p>d) Exclamativa</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b0" class="block iDevice_content">
+<p>3. El Campo Semántico es?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b01" class="sr-av"><a href="#answer-key2b01">Opción 1</a></label><input type="radio" name="key2b0" id="key2b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b01">
+<div id="taoptionAnswer0q2b0" class="block iDevice_content">
+<p>a) Es un conjunto de letras relacionadas entre si</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b02" class="sr-av"><a href="#answer-key2b02">Opción 2</a></label><input type="radio" name="key2b0" id="key2b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b02">
+<div id="taoptionAnswer1q2b0" class="block iDevice_content">
+<p>b) Es un conjunto de oraciones con sinónimos relacionados entre si</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b03" class="sr-av"><a href="#answer-key2b03">Opción 3</a></label><input type="radio" name="key2b0" id="key2b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b03">
+<div id="taoptionAnswer2q2b0" class="block iDevice_content">
+<p>c) Es un conjunto de palabras que están relacionadas por su significado</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b04" class="sr-av"><a href="#answer-key2b04">Opción 4</a></label><input type="radio" name="key2b0" id="key2b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b04">
+<div id="taoptionAnswer3q2b0" class="block iDevice_content">
+<p>d) Es un conjunto de frases que están relacionadas por su significado</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b0" class="block iDevice_content">
+<p>4. Cual sería el campo semántico del siguiente grupo de palabras: "Manzana, Uva, Fresa, Banano, Sandia".</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b01" class="sr-av"><a href="#answer-key3b01">Opción 1</a></label><input type="radio" name="key3b0" id="key3b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b01">
+<div id="taoptionAnswer0q3b0" class="block iDevice_content">
+<p>a) Campo semántico Los animales</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b02" class="sr-av"><a href="#answer-key3b02">Opción 2</a></label><input type="radio" name="key3b0" id="key3b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b02">
+<div id="taoptionAnswer1q3b0" class="block iDevice_content">
+<p>b) Campo semántico Las frutas</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b03" class="sr-av"><a href="#answer-key3b03">Opción 3</a></label><input type="radio" name="key3b0" id="key3b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b03">
+<div id="taoptionAnswer2q3b0" class="block iDevice_content">
+<p>c) Campo semántico Utiles escolares</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b04" class="sr-av"><a href="#answer-key3b04">Opción 4</a></label><input type="radio" name="key3b0" id="key3b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b04">
+<div id="taoptionAnswer3q3b0" class="block iDevice_content">
+<p>d) Campo semántico Las verduras</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b0" class="block iDevice_content">
+<p>5. Marque el conector que corresponde al enunciado "Es mi profesor preferido______a veces su comportamiento me desconcierta".</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b01" class="sr-av"><a href="#answer-key4b01">Opción 1</a></label><input type="radio" name="key4b0" id="key4b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b01">
+<div id="taoptionAnswer0q4b0" class="block iDevice_content">
+<p>a) Asi</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b02" class="sr-av"><a href="#answer-key4b02">Opción 2</a></label><input type="radio" name="key4b0" id="key4b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b02">
+<div id="taoptionAnswer1q4b0" class="block iDevice_content">
+<p>b) Pero</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b03" class="sr-av"><a href="#answer-key4b03">Opción 3</a></label><input type="radio" name="key4b0" id="key4b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b03">
+<div id="taoptionAnswer2q4b0" class="block iDevice_content">
+<p>c) A pesar de</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b04" class="sr-av"><a href="#answer-key4b04">Opción 4</a></label><input type="radio" name="key4b0" id="key4b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b04">
+<div id="taoptionAnswer3q4b0" class="block iDevice_content">
+<p>d) Por</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion5b0" class="block iDevice_content">
+<p>6. Marque el conector que corresponde al enunciado "Pensé que había tomado la decisión más acertada. __________, no fue así."</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b01" class="sr-av"><a href="#answer-key5b01">Opción 1</a></label><input type="radio" name="key5b0" id="key5b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b01">
+<div id="taoptionAnswer0q5b0" class="block iDevice_content">
+<p>a) Además</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b02" class="sr-av"><a href="#answer-key5b02">Opción 2</a></label><input type="radio" name="key5b0" id="key5b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b02">
+<div id="taoptionAnswer1q5b0" class="block iDevice_content">
+<p>b) Por consiguiente</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b03" class="sr-av"><a href="#answer-key5b03">Opción 3</a></label><input type="radio" name="key5b0" id="key5b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b03">
+<div id="taoptionAnswer2q5b0" class="block iDevice_content">
+<p>c) Sin embargo</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b04" class="sr-av"><a href="#answer-key5b04">Opción 4</a></label><input type="radio" name="key5b0" id="key5b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b04">
+<div id="taoptionAnswer3q5b0" class="block iDevice_content">
+<p>d) Por ende</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion6b0" class="block iDevice_content">
+<p>7. Entrega la información a quien escucha o lee acerca de algún tema. Es la definición de un discurso oral?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b01" class="sr-av"><a href="#answer-key6b01">Opción 1</a></label><input type="radio" name="key6b0" id="key6b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b01">
+<div id="taoptionAnswer0q6b0" class="block iDevice_content">
+<p>a) Argumentativo</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b02" class="sr-av"><a href="#answer-key6b02">Opción 2</a></label><input type="radio" name="key6b0" id="key6b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b02">
+<div id="taoptionAnswer1q6b0" class="block iDevice_content">
+<p>b) Dialógico</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b03" class="sr-av"><a href="#answer-key6b03">Opción 3</a></label><input type="radio" name="key6b0" id="key6b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b03">
+<div id="taoptionAnswer2q6b0" class="block iDevice_content">
+<p>c) Interrogativo</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b04" class="sr-av"><a href="#answer-key6b04">Opción 4</a></label><input type="radio" name="key6b0" id="key6b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b04">
+<div id="taoptionAnswer3q6b0" class="block iDevice_content">
+<p>d) Expositivo</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion7b0" class="block iDevice_content">
+<p>8. La expresión "Tú eres capaz de muchas cosas" corresponde a:</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b01" class="sr-av"><a href="#answer-key7b01">Opción 1</a></label><input type="radio" name="key7b0" id="key7b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b01">
+<div id="taoptionAnswer0q7b0" class="block iDevice_content">
+<p>a) Modo Delocutivo</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b02" class="sr-av"><a href="#answer-key7b02">Opción 2</a></label><input type="radio" name="key7b0" id="key7b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b02">
+<div id="taoptionAnswer1q7b0" class="block iDevice_content">
+<p>b) Modo Elocutivo</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b03" class="sr-av"><a href="#answer-key7b03">Opción 3</a></label><input type="radio" name="key7b0" id="key7b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b03">
+<div id="taoptionAnswer2q7b0" class="block iDevice_content">
+<p>c) Modo Alocutivo</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b04" class="sr-av"><a href="#answer-key7b04">Opción 4</a></label><input type="radio" name="key7b0" id="key7b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b04">
+<div id="taoptionAnswer3q7b0" class="block iDevice_content">
+<p>d) Modo Perlocutivo</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore0"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_carm_js.js"></script></body></html>
